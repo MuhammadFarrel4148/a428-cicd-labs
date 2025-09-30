@@ -11,7 +11,7 @@ pipeline {
                 sh 'npm install'
             }
         }
-        stage('Coba Testing') {
+        stage('Test') {
             steps {
                 sh './jenkins/scripts/test.sh'
             }
